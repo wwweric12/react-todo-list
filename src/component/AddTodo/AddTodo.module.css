@@ -1,0 +1,23 @@
+.addform {
+  background-color: var(--color-bg-brown);
+  height: 50px;
+  display: flex;
+  flex-direction: row;
+}
+
+.addinput {
+  flex: 1 1 0;
+  background-color: var(--color-beige);
+  border: 0;
+  font-size: 20px;
+  padding: 20px;
+  color: var(--color-placeholder);
+}
+.addinput::placeholder {
+  color: var(--color-placeholder);
+}
+
+.addbutton {
+  opacity: 1;
+  padding: 10px;
+}
