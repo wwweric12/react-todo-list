@@ -1,0 +1,61 @@
+* {
+  box-sizing: border-box;
+}
+
+:root {
+  --color-bg: #402218c9;
+  --color-bg-brown: #916946fb;
+  --color-brown: #8f613ad0;
+  --color-beige-brown: #ceab93;
+  --color-text-beige: #eec373;
+  --color-beige: #f4dfba;
+  --color-placeholder: #ecab30;
+}
+
+.dark {
+  --color-bg: #18122b;
+  --color-bg-brown: #443c68;
+  --color-brown: #393053;
+  --color-beige-brown: #635985;
+  --color-beige: #6e6297;
+  --color-placeholder: #eec373;
+}
+#root {
+  width: 400px;
+  height: 600px;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  align-items: center;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  border-radius: 20px;
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: var(--color-bg);
+  accent-color: var(--color-beige);
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+li {
+  list-style: none;
+  margin-left: 20px;
+}
+ul {
+  padding: 0;
+}

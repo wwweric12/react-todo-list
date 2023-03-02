@@ -1,0 +1,31 @@
+.list {
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.checkbox {
+  width: 20px;
+  height: 20px;
+  margin: 0 10px;
+}
+.text {
+  font-size: 18px;
+  color: var(--color-text-beige);
+}
+
+.text.checked {
+  text-decoration: line-through;
+  opacity: 0.5;
+}
+
+.deletebutton {
+  padding: 0;
+  width: 30px;
+  height: 30px;
+}
+
+.deletebutton:hover {
+  font-size: 30px;
+  transition: all 1s ease;
+}
